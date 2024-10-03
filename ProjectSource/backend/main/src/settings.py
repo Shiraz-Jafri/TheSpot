@@ -122,4 +122,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # For different delpoyment.
 CORS_ALLOW_ALL_ORIGINS = True
 
-
+GOOGLE_API_KEY = 'AIzaSyC1jg9B-vY2AR9w95LCbfXBLcNSfw7_d5k'
