@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'places',
+    'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +126,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
 
 GOOGLE_API_KEY = 'AIzaSyC1jg9B-vY2AR9w95LCbfXBLcNSfw7_d5k'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
